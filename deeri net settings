@@ -1,0 +1,13 @@
+local net = true
+local hats = false
+if hats = true then
+--put hats here--	
+end
+if net == true then
+_G.StrongerNet = false-- you hats will not lag other that if your moving super fast.
+_G.Net = true -- your regular net. hats may lag behind if moving fast.
+_G.Bot = false -- bot reanimate
+_G.WeakNet = false --a weak net with little jitter
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DeeriHub/Deeri-Hub/main/Deeri%20net"))()
+wait(2.5)
+end
